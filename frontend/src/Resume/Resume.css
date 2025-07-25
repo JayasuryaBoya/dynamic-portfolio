@@ -1,0 +1,88 @@
+.resume-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  border-radius: 10px;
+}
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2e3a59;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.contact-info,
+.links {
+  font-size: 14px;
+  text-align: center;
+  color: #555;
+  margin: 2px 0 8px;
+}
+
+.contact-info a,
+.links a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+section h2 {
+  font-size: 20px;
+  color: #1c1c1c;
+  margin-top: 25px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+.r-project h3{
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+.r-project {
+  margin-bottom: 25px;
+  padding-left: 10px;
+}
+
+.r-project strong {
+  color: #2e3a59;
+  font-size: 16px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .resume-container {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .name {
+    font-size: 26px;
+  }
+
+  section h2 {
+    font-size: 18px;
+  }
+
+  .contact-info,
+  .links {
+    font-size: 13px;
+  }
+}

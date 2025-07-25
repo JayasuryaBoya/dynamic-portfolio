@@ -1,0 +1,122 @@
+
+.project-section {
+  padding: 2rem 1rem;
+  background-color: #f5f6fa;
+}
+
+.project-section .project-heading {
+  font-size: 2rem;
+  color: #1a1a2e;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-left: 0.8rem;
+  font-weight: 200;
+  border-bottom: 1px solid #1a1a2e;
+}
+.project-section .no-projects{
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.project-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+}
+
+.project-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #34495e;
+  margin-bottom: 0.5rem;
+}
+
+.project-objective {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.project-developer {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.explore-btn {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+}
+
+.explore-icon {
+  font-size: 1.4rem;
+  color: #2980b9;
+  transition: transform 0.2s ease;
+}
+
+.explore-btn:hover .explore-icon {
+  transform: scale(1.2);
+}
+
+.add-project {
+  margin-top: 2rem;
+ text-align: end;
+}
+
+.add-project .btn {
+  background-color: transparent;
+  padding: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-project .btn:hover {
+  background-color: #ecf0f1;
+}
+
+.add-icon {
+  color: #34495e;
+  border: 1px solid;
+   border-radius: 50%;
+  font-size: 2rem;
+}
+
+/* Responsive Layout */
+@media (max-width: 780px) {
+  .project {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .project-section .project-heading {
+    font-size: 1.5rem;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
+  .project .project-heading{
+    font-size: 1.75rem;
+    text-align: start;
+  }
+}

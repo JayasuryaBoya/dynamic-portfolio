@@ -1,0 +1,5 @@
+/backend/node_modules/
+/backend/.env
+/backend/logs/
+/backend/.DS_Store
+/backend/admin_request.http

@@ -1,0 +1,98 @@
+.skills-container {
+    margin: 50px auto;
+    padding:  20px;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f6fa;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.skills-title {
+   font-size: 2rem;
+   text-align: center;
+  color: #1a1a2e;
+  margin-bottom: 1rem;
+  padding-left: 0.8rem;
+  font-weight: 200;
+  border-bottom: 1px solid #1a1a2e;
+}
+
+.skill-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.skill-input {
+    flex: 1;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border 0.2s ease-in-out;
+    max-width: 600px;
+}
+
+.skill-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.skill-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.skill-button:hover {
+    background-color: #0056b3;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+} 
+
+.skill-tag {
+    background-color: #e0f0ff;
+    color: #007bff;
+    padding: 10px 16px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    cursor: default;
+}
+
+.skill-tag:hover {
+    transform: scale(1.05);
+    background-color: #cce8ff;
+}
+.skills-container .no-skills{
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555;
+}
+.delete-tip{
+    font-weight: 100;
+    font-size: 0.95rem;
+     font-family: 'Segoe UI', sans-serif;
+    text-align: end;
+    color: #555;
+}   
+
+@media  (max-width:500px){
+.skills-container .skills-title{
+font-size: 1.75rem;
+font-weight: 200;
+text-align: start;
+}
+    
+}

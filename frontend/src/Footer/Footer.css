@@ -1,0 +1,32 @@
+/* Footer.css */
+
+.footer {
+  background-color: #1a1a2e;
+  color: #f0f0f0;
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #333;
+  margin-top: auto;
+}
+
+.footer-text {
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.footer-icons a {
+  color: #f0f0f0;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #00adb5;
+}

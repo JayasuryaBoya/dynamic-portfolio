@@ -1,0 +1,61 @@
+.signin-container {
+  background: #ffffff;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 3rem auto;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+.input-field {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.user-type {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.user-type input[type='radio'] {
+  margin-right: 0.5rem;
+}
+
+.submit-btn {
+  padding: 0.75rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
