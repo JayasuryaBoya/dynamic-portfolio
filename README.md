@@ -25,7 +25,7 @@ A **dynamic full-stack portfolio website** built using **React.js**, **Express.j
 | HTML/CSS      | JWT Auth      |          | Postman (for testing) |
 
 ---
-
+``` bash
 ## 📁 Folder Structure
 frontend/
 ├── build/               # Build output (created by `npm run build`)
